@@ -1,0 +1,19 @@
+*{
+  background-color: #6E73AB;
+  color: aliceblue;
+  padding: 0;
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  width: 15px
+}
+
+::-webkit-scrollbar-track{
+background: black;
+}
+
+::-webkit-scrollbar-thumb {
+border-radius: 15px;
+border: 10px solid #383838;
+}

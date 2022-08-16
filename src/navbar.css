@@ -1,0 +1,53 @@
+.slide{
+    
+}
+
+.img-logo{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.img-logo:hover{
+    -webkit-transform: scale(1);
+    transform: scale(1.1);
+}
+
+.logo img{
+    width: 120px;
+}
+
+li{
+    display: inline-block;
+}
+
+ul{
+    list-style: none;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+  }
+
+.logo a {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+.button-login{
+    background-color: #fff;
+    color: #000;
+    width: 93px;
+    height: 30px;
+    border-radius: 20px;
+    border-color: #fff;
+    margin: 31px 37px 0px 0px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.button-login:hover{
+    -webkit-filter: drop-shadow(3px 3px 3px #6E73AB);
+    filter: drop-shadow(5px 3px 3px #FFA37B);
+}
