@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
+import Loan from './Loan';
 import Navbar from './Navbar';
-import Slider from './Slider/Slider';
 
 class Home extends Component {
     state = {  } 
@@ -8,6 +8,7 @@ class Home extends Component {
         return (
             <>
                 <Navbar />
+                <Loan />
             </>
         );
     }

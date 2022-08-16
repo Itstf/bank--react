@@ -1,10 +1,11 @@
 .container-slider {
   max-width: 100%;
-  height: 890px;
+  height: 609px;
   margin: 0px auto 0;
   position: relative;
   overflow: hidden;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  margin-top: -87px;
 }
 @media screen and (max-width: 700px){
   .container-slider {
@@ -14,7 +15,7 @@
 .slide {
   width: 100%;
   height: 100%;
-  /* position: absolute; */
+  position: absolute;
   opacity: 0;
   transition: opacity ease-in-out 0.4s;
 }
@@ -28,11 +29,11 @@
 }
 
 .btn-slide {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   background: #f1f1f1;
-  border: 1px solid #FFA37B;
+  border: 1px solid #ffffff;
   position: absolute;
   display: flex;
   justify-content: center;
@@ -41,8 +42,8 @@
 }
 
 .btn-slide img {
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   pointer-events: none;
 }
 .prev {
@@ -55,7 +56,6 @@
   right: 20px;
   transform: translateY(-60%);
 }
-
 
 .container-dots {
   position: absolute;

@@ -5,7 +5,7 @@ import Slider from './Slider/Slider';
 function Navbar() {
     return (  
         <>
-            <div id='navbar'>
+            <div className='navbar'>
                 <div className='flex'>
                     <div>
                         <a href='#' className='logo'>
