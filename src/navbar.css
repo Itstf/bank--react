@@ -40,10 +40,10 @@ ul{
     width: 93px;
     height: 30px;
     border-radius: 20px;
-    border-color: #fff;
     margin: 31px 37px 0px 0px;
     transition: all 0.5s;
     cursor: pointer;
+    border: 0px solid #fff;
 }
 
 .button-login:hover{

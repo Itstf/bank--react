@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
+import About from './About';
 import Loan from './Loan';
 import Navbar from './Navbar';
+import Registration from './Registration';
 
 class Home extends Component {
     state = {  } 
@@ -9,6 +11,8 @@ class Home extends Component {
             <>
                 <Navbar />
                 <Loan />
+                <About />
+                <Registration/>
             </>
         );
     }
