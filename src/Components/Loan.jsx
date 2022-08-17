@@ -7,7 +7,7 @@ function Loan() {
             <div className='loan'>
                 <div className='text'>
                     <h4>EMPRÉSTIMO</h4>
-                    <h2> Conheça as opções </h2>
+                    <h2 className='gradient-text'> Conheça as opções </h2>
                     <p> Dinheiro na sua conta! </p>
                     <p> Precisando daquela ajuda extra? </p>
                     <br />

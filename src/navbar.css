@@ -12,16 +12,7 @@
     width: 120px;
 }
 
-/* li{
-    display: inline-block;
-}
-
-ul{
-    list-style: none;
-} */
-
 .flex{
-    /* background-color: #6E73AB; */
     display: flex;
     justify-content: space-between;
     position: relative;
