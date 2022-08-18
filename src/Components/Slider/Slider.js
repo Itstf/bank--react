@@ -46,11 +46,11 @@ export default function Slider() {
                     
                 )
             })}
-            <BtnSlider moveSlide={nextSlide} direction={"next"} />
-            <BtnSlider moveSlide={prevSlide} direction={"prev"}/>
+            {/* <BtnSlider moveSlide={nextSlide} direction={"next"} />
+            <BtnSlider moveSlide={prevSlide} direction={"prev"}/> */}
 
             <div className="container-dots">
-                {Array.from({length: 4}).map((item, index) => ( //4 bolinhas para passar a foto
+                {Array.from({length: 6}).map((item, index) => ( //4 bolinhas para passar a foto
                     <div 
                     onClick={() => moveDot(index + 1)}
                     className={slideIndex === index + 1 ? "dot active" : "dot"}
