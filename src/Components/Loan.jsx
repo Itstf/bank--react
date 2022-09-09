@@ -37,7 +37,6 @@ function Loan() {
                         <li> Subject to credit review. </li>
                     </ul>
                 </div>
-
             </div>
 
             <div class="hero photo-1 parallax"></div>
